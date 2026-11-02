@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>شركة في جيبك: متجر ومحاسبة وتسويق ونظم</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f5fa;--card:#fff;--ink:#16162a;--mute:#62647a;--line:#dcdeea;--a:#5b3df5;--b:#e8590c;--c:#0b8a6f;--d:#d6336c;--ok:#15803d;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f0f1c;--card:#191930;--ink:#ececf8;--mute:#9a9cb8;--line:#2c2c4a;--a:#8f7bff;--b:#ff8f4d;--c:#34d3a6;--d:#ff7aa8;--ok:#4ade80}}
+:root[data-theme="dark"]{--bg:#0f0f1c;--card:#191930;--ink:#ececf8;--mute:#9a9cb8;--line:#2c2c4a;--a:#8f7bff;--b:#ff8f4d;--c:#34d3a6;--d:#ff7aa8;--ok:#4ade80}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Cairo,Tahoma,Arial,sans-serif;line-height:1.6}
+.w{max-width:980px;margin:0 auto;padding:14px}
+.hero{background:linear-gradient(135deg,#5b3df5,#d6336c);color:#fff;border-radius:14px;padding:14px 18px}
+.hero h1{margin:0;font-size:1.35rem}.hero p{margin:0;opacity:.9;font-size:.9rem}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin:10px 0;padding-bottom:2px}
+.tabs button,.act button,.p button{font:inherit;font-weight:600;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:7px 14px;cursor:pointer;white-space:nowrap}
+.tabs button.on{background:var(--a);color:#fff;border-color:var(--a)}
+.act{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.act .go,.go{background:var(--c)!important;color:#fff!important;border-color:var(--c)!important}
+.g2{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-bottom:10px}
+.p{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.pr{display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px;margin:0}
+.em{font-size:2.2rem}.pr small{color:var(--mute)}
+.q{display:flex;align-items:center;gap:10px;margin-top:6px}.q button{padding:2px 12px!important;font-size:1.1rem}.q span{min-width:20px;font-weight:800}
+.kp{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:10px}
+.k{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--a);border-radius:10px;padding:10px}.k:nth-child(2){border-top-color:var(--c)}.k:nth-child(3){border-top-color:var(--b)}.k:nth-child(4){border-top-color:var(--d)}
+.k small{color:var(--mute)}.k b{display:block;font-size:1.25rem}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px}
+h3{margin:0 0 8px;font-size:1rem}
+select,input{font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);width:100%;margin:3px 0}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.bar{display:grid;grid-template-columns:100px 1fr 76px;gap:8px;align-items:center;margin:6px 0;font-size:.85rem}.bar i{display:block;height:13px;border-radius:4px;background:var(--a)}.bar span:last-child{text-align:left;direction:ltr}
+.sc{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:.82rem}th,td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}th{color:var(--mute)}
+.ok{color:var(--ok);font-weight:800}.bad{color:#dc2626;font-weight:800}
+.dn{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap}.dn svg{width:170px;height:170px}.sg:hover{stroke-width:34}
+.dt{font-size:19px;font-weight:800;fill:var(--ink)}.ds{font-size:11px;fill:var(--mute)}
+.lg{flex:1;min-width:140px;font-size:.85rem}.lg div{display:flex;gap:6px;align-items:center;margin:4px 0}.lg i{width:10px;height:10px;border-radius:3px}.lg b{margin-inline-start:auto}
+#ts{position:fixed;bottom:calc(14px + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);background:var(--c);color:#fff;padding:10px 18px;border-radius:999px;font-weight:800;display:none;z-index:9;max-width:92vw;text-align:center}
+.em0{text-align:center;color:var(--mute);padding:24px}
+.bar span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.th{cursor:pointer;width:100%;display:flex;justify-content:center}.th svg{width:100%;max-width:140px}.dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-inline-start:6px}
+.md{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:8;padding:16px}.mb{background:var(--card);border-radius:16px;padding:16px;max-width:420px;width:100%;max-height:88vh;overflow:auto;position:relative}.x{position:absolute;top:8px;left:8px;border:0;background:var(--bg);color:var(--ink);border-radius:50%;width:32px;height:32px;font-size:1rem;cursor:pointer}.ar{background:linear-gradient(135deg,var(--bg),var(--line));border-radius:12px;padding:12px;margin:22px 0 8px;display:flex;justify-content:center}.ar svg{width:100%;max-width:260px}.ar .em{font-size:5rem}.mb table th{width:38%;color:var(--mute)}
+</style>
+</head>
+<body>
+<div class="w">
+<div class="hero"><h1>🏪 شركة في جيبك</h1><p>اطلب من المتجر، والمحاسبة والمخزون والتسويق والداشبورد بيتحدثوا لوحدهم.</p></div>
+<div class="tabs" id="tb"></div>
+<div class="act"><button class="go" onclick="demo(8)">أضف 8 طلبات تجريبية</button><button onclick="reset()">ابدأ من الصفر</button></div>
+<div id="v"></div>
+</div>
+<div id="ts"></div><div id="md" class="md" onclick="if(event.target===this){pv=null;draw()}"></div>
+<script>
+const OLD=[['كوفر هاتف',150,60,25,'📱'],['سماعة بلوتوث',420,210,15,'🎧'],['ساعة ذكية',900,520,10,'⌚'],['باور بانك',350,190,20,'🔋'],['شاحن سريع',180,70,30,'🔌'],['حقيبة لابتوب',550,260,12,'💼']];
+const CP={IG10:.1,TT15:.15,FB5:.05},CH=['انستجرام','تيك توك','فيسبوك','واتساب'],PAL=['#5b3df5','#e8590c','#0b8a6f','#d6336c'];
+const T=[['store','🛒 المتجر'],['sys','🗂 الطلبات والمخزون'],['acc','📒 المحاسبة'],['mkt','📣 التسويق'],['dash','📊 الداشبورد']];
+let O=[],cart={},tab='store',chV=CH[0],cpV='',catV=-1,pv=null;
+try{O=JSON.parse(localStorage.getItem('shop2')||'[]')}catch(e){}
+const save=()=>{try{localStorage.setItem('shop2',JSON.stringify(O))}catch(e){}};
+const f0=n=>Math.round(n).toLocaleString('en-US'),f2=n=>n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const sum=(a,f)=>a.reduce((s,x)=>s+f(x),0);
+const sold=i=>sum(O,o=>(o.it.find(x=>x[0]===i)||[0,0])[1]),stock=i=>P[i][3]-sold(i);
+function mk(c,ch,code){const it=Object.entries(c).filter(e=>e[1]>0).map(e=>[+e[0],e[1]]),gross=sum(it,x=>P[x[0]][1]*x[1]),r=CP[code]||0,disc=gross*r,net=gross-disc,vat=net*.14;return{id:1001+O.length,ch,code:r?code:'',it,gross,disc,net,vat,total:net+vat,cogs:sum(it,x=>P[x[0]][2]*x[1])}}
+function toast(m){const t=document.getElementById('ts');t.textContent=m;t.style.display='block';clearTimeout(t.h);t.h=setTimeout(()=>t.style.display='none',3200)}
+function chg(i,d){const n=(cart[i]||0)+d;if(n<0||n>stock(i))return;cart[i]=n;draw()}
+function buy(){const o=mk(cart,chV,cpV.trim().toUpperCase());if(!o.it.length)return toast('اختار منتج الأول');O.push(o);save();cart={};toast('طلب #'+o.id+' اتسجل، والقيد اتكتب تلقائياً ✔');draw()}
+function demo(n){for(let k=0;k<n;k++){const c={},m=1+(Math.random()*3|0);for(let j=0;j<m;j++){const i=Math.random()*P.length|0;if(stock(i)-(c[i]||0)>0)c[i]=Math.min(stock(i),(c[i]||0)+1+(Math.random()*2|0))}const cs=Object.keys(CP);const code=Math.random()<.6?cs[Math.random()*3|0]:'';const o=mk(c,CH[Math.random()*4|0],code);if(o.it.length)O.push(o)}save();toast('اتضافت طلبات تجريبية');draw()}
+function reset(){O=[];cart={};save();draw()}
+function sm(){const o=mk(cart,chV,cpV.trim().toUpperCase()),e=document.getElementById('sm');if(!e)return;e.innerHTML=`<table><tr><td>المجموع</td><td>${f2(o.gross)}</td></tr><tr><td>الخصم ${o.code?'('+o.code+')':''}</td><td>-${f2(o.disc)}</td></tr><tr><td>ضريبة 14%</td><td>${f2(o.vat)}</td></tr><tr><th>الإجمالي</th><th>${f2(o.total)}</th></tr></table>`}
+function grp(l,k,v){const m={};l.forEach(x=>m[k(x)]=(m[k(x)]||0)+v(x));return Object.entries(m).sort((a,b)=>b[1]-a[1])}
+function bars(e){const mx=Math.max(...e.map(x=>x[1]),1);return e.map(([k,v],j)=>`<div class="bar"><span>${k}</span><span><i style="width:${v/mx*100}%;background:${PAL[j%4]}"></i></span><span>${f0(v)}</span></div>`).join('')}
+function donut(e){const S=sum(e,x=>x[1]),R=62,C=2*Math.PI*R;let o=0;return `<div class="dn"><svg viewBox="0 0 200 200"><title>رسم دائري</title>${e.map(([k,v],j)=>{const l=v/S*C,s=`<circle class="sg" r="${R}" cx="100" cy="100" fill="none" stroke="${PAL[j%4]}" stroke-width="28" stroke-dasharray="${Math.max(l-2,.1)} ${C}" stroke-dashoffset="${-o}" transform="rotate(-90 100 100)"><title>${k}: ${f0(v)}</title></circle>`;o+=l;return s}).join('')}<text x="100" y="103" text-anchor="middle" class="dt">${f0(S)}</text><text x="100" y="120" text-anchor="middle" class="ds">جنيه</text></svg><div class="lg">${e.map(([k,v],j)=>`<div><i style="background:${PAL[j%4]}"></i>${k}<b>${f0(v/S*100)}%</b></div>`).join('')}</div></div>`}
+const E='<div class="p em0">مفيش طلبات لسه. اطلب من المتجر أو اضغط «أضف 8 طلبات تجريبية».</div>';
+const CATS=[['لابتوبات','💻','lap'],['ساعات ذكية','⌚','wat'],['سماعات','🎧',''],['باور بانك','🔋',''],['شواحن','🔌',''],['كفرات','📱',''],['حقائب','💼','']];
+const RAW=[
+[0,'لينوفو IdeaPad 3',17500,13000,8,'#64748b','الشاشة:15.6 بوصة FHD|المعالج:Core i3 جيل 12|الرام:8 جيجا|التخزين:256 جيجا SSD|البطارية:حتى 7 ساعات|الوزن:1.7 كجم'],
+[0,'HP Pavilion 15',23500,18000,7,'#2563eb','الشاشة:15.6 بوصة FHD IPS|المعالج:Core i5 جيل 13|الرام:16 جيجا|التخزين:512 جيجا SSD|البطارية:حتى 8 ساعات|الوزن:1.7 كجم'],
+[0,'Dell Inspiron 14',26000,20000,6,'#0f766e','الشاشة:14 بوصة FHD+|المعالج:Ryzen 5 7530U|الرام:16 جيجا|التخزين:512 جيجا SSD|البطارية:حتى 9 ساعات|الوزن:1.5 كجم'],
+[0,'ASUS Vivobook 16',29500,23000,5,'#7c3aed','الشاشة:16 بوصة WUXGA|المعالج:Core i7 جيل 13|الرام:16 جيجا|التخزين:1 تيرا SSD|البطارية:حتى 10 ساعات|الوزن:1.88 كجم'],
+[0,'MacBook Air M2',48000,41000,4,'#94a3b8','الشاشة:13.6 بوصة Liquid Retina|المعالج:Apple M2|الرام:8 جيجا|التخزين:256 جيجا SSD|البطارية:حتى 18 ساعة|الوزن:1.24 كجم'],
+[0,'ASUS TUF Gaming',42000,34000,3,'#dc2626','الشاشة:15.6 بوصة 144Hz|المعالج:Core i7 + RTX 4050|الرام:16 جيجا|التخزين:512 جيجا SSD|البطارية:حتى 6 ساعات|الوزن:2.2 كجم'],
+[1,'Xiaomi Smart Band 8',1200,700,20,'#111827','الشاشة:AMOLED 1.62 بوصة|البطارية:حتى 16 يوم|مقاومة الماء:5ATM|الصحة:نبض ونوم وأكسجين|GPS:غير متوفر'],
+[1,'Huawei Watch Fit 3',3800,2800,12,'#f59e0b','الشاشة:AMOLED 1.82 بوصة|البطارية:حتى 10 أيام|مقاومة الماء:5ATM|الصحة:نبض ونوم وأكسجين|GPS:مدمج'],
+[1,'Amazfit GTR 4',5600,4200,9,'#0ea5e9','الشاشة:AMOLED 1.43 بوصة|البطارية:حتى 14 يوم|مقاومة الماء:5ATM|الصحة:نبض ونوم وضغط|GPS:مزدوج التردد'],
+[1,'Samsung Galaxy Watch 6',7500,5800,8,'#9ca3af','الشاشة:Super AMOLED 1.5 بوصة|البطارية:حتى 40 ساعة|مقاومة الماء:5ATM|الصحة:تحليل الجسم وECG|GPS:مدمج'],
+[1,'Garmin Forerunner 55',8500,6800,5,'#10b981','الشاشة:MIP 1.04 بوصة|البطارية:حتى 14 يوم|مقاومة الماء:5ATM|الرياضة:خطط جري وتحليل أداء|GPS:مدمج'],
+[1,'Apple Watch SE',11000,9000,6,'#f43f5e','الشاشة:Retina 1.57 بوصة|البطارية:حتى 18 ساعة|مقاومة الماء:50 متر|الصحة:نبض وكشف سقوط|GPS:مدمج'],
+[2,'Anker Soundcore Q20i',950,550,15,'#1f2937','النوع:فوق الأذن لاسلكي|عزل الضوضاء:ANC|البطارية:40 ساعة|البلوتوث:5.3'],
+[2,'JBL Tune 520BT',1500,950,12,'#2563eb','النوع:فوق الأذن لاسلكي|الصوت:JBL Pure Bass|البطارية:57 ساعة|البلوتوث:5.3'],
+[2,'Sony WH-CH520',2000,1400,10,'#e5e7eb','النوع:فوق الأذن لاسلكي|الميكروفون:مدمج للمكالمات|البطارية:50 ساعة|البلوتوث:5.2'],
+[2,'AirPods Pro 2',8500,7000,6,'#f8fafc','النوع:داخل الأذن|عزل الضوضاء:ANC تكيفي|البطارية:6 ساعات والعلبة 30|الشحن:USB-C'],
+[3,'Anker 10000mAh',900,550,18,'#111827','السعة:10000 مللي أمبير|الشحن السريع:20 واط|المنافذ:USB-C وUSB-A|الوزن:212 جرام'],
+[3,'Xiaomi 20000mAh',1300,850,14,'#f97316','السعة:20000 مللي أمبير|الشحن السريع:22.5 واط|المنافذ:3 منافذ|الوزن:430 جرام'],
+[3,'Baseus 30000mAh',2600,1800,8,'#0891b2','السعة:30000 مللي أمبير|الشحن السريع:65 واط|يشحن:لابتوب وموبايل|شاشة عرض:رقمية'],
+[4,'شاحن 20 واط USB-C',350,150,30,'#e5e7eb','القدرة:20 واط|المنفذ:USB-C|الحماية:ضد الحرارة|مناسب لـ:آيفون وأندرويد'],
+[4,'شاحن Samsung 45 واط',700,420,20,'#1d4ed8','القدرة:45 واط|المنفذ:USB-C PD|التقنية:Super Fast Charging 2.0|مناسب لـ:جالاكسي'],
+[4,'شاحن GaN 65 واط',1100,650,12,'#111827','القدرة:65 واط|المنافذ:2 USB-C وUSB-A|التقنية:GaN صغير الحجم|يشحن:لابتوب'],
+[5,'كوفر سيليكون',150,60,40,'#ec4899','الخامة:سيليكون ناعم|الحماية:ضد الخدش|اللمسة:مضادة للبصمات|الألوان:متعددة'],
+[5,'كوفر شفاف مقوى',220,90,35,'#38bdf8','الخامة:TPU شفاف|الحماية:زوايا مقواة|مضاد للاصفرار:نعم|يدعم:الشحن اللاسلكي'],
+[5,'كوفر جلد فاخر',350,160,25,'#92400e','الخامة:جلد صناعي|الحماية:غطاء للشاشة|الجيوب:كروت|الشكل:محفظة'],
+[6,'حقيبة لابتوب 15.6',550,260,15,'#475569','المقاس:حتى 15.6 بوصة|الخامة:مقاومة للماء|الحماية:بطانة إسفنجية|الجيوب:3 جيوب'],
+[6,'حقيبة ظهر Anti-theft',900,480,10,'#0f172a','المقاس:حتى 17 بوصة|الأمان:سوستة مخفية|الشحن:منفذ USB خارجي|الخامة:مقاومة للماء'],
+[6,'شنطة Sleeve 14',400,180,18,'#22c55e','المقاس:حتى 14 بوصة|الخامة:نيوبرين|الحماية:ضد الصدمات|الوزن:خفيف جداً']
+];
+const P=RAW.map(r=>[r[1],r[2],r[3],r[4],CATS[r[0]][1],r[6],r[5],r[0]]);
+function art(i){const p=P[i],c=p[6],k=CATS[p[7]][2];if(k==='lap')return `<svg viewBox="0 0 120 80"><rect x="22" y="8" width="76" height="50" rx="5" fill="${c}"/><rect x="27" y="13" width="66" height="40" rx="2" fill="#0f172a"/><rect x="34" y="20" width="30" height="4" rx="2" fill="${c}"/><path d="M8 62h104l-8 11H16z" fill="${c}" opacity=".85"/></svg>`;if(k==='wat')return `<svg viewBox="0 0 120 80"><rect x="48" y="2" width="24" height="76" rx="8" fill="${c}" opacity=".6"/><rect x="38" y="16" width="44" height="48" rx="12" fill="${c}"/><rect x="42" y="20" width="36" height="40" rx="9" fill="#0f172a"/><text x="60" y="45" text-anchor="middle" font-size="12" fill="#fff" font-weight="800">10:09</text></svg>`;return `<div class="em">${CATS[p[7]][1]}<i class="dot" style="background:${c}"></i></div>`}
+function md(){const e=document.getElementById('md');if(pv===null||tab!=='store'){e.style.display='none';return}const p=P[pv];e.style.display='flex';e.innerHTML=`<div class="mb"><button class="x" onclick="pv=null;draw()">✕</button><div class="ar">${art(pv)}</div><h3>${p[0]}</h3><div><b>${f0(p[1])} ج.م</b> <small>· ${CATS[p[7]][0]} · متاح ${stock(pv)}</small></div><div class="sc"><table>${p[5].split('|').map(s=>{const k=s.split(':');return `<tr><th>${k[0]}</th><td>${k[1]}</td></tr>`}).join('')}</table></div><div class="q" style="justify-content:center"><button onclick="chg(${pv},-1)">−</button><span>${cart[pv]||0}</span><button onclick="chg(${pv},1)">+</button></div></div>`}
+function storeHtml(){const L=P.map((p,i)=>i).filter(i=>catV<0||P[i][7]===catV);return `<div class="tabs">${[-1,...CATS.keys()].map(k=>`<button class="${k===catV?'on':''}" onclick="catV=${k};draw()">${k<0?'الكل':CATS[k][1]+' '+CATS[k][0]}</button>`).join('')}</div><div class="g2">${L.map(i=>{const p=P[i];return `<div class="p pr"><div class="th" onclick="pv=${i};draw()">${art(i)}</div><b>${p[0]}</b><small>${f0(p[1])} ج.م · متاح ${stock(i)}</small><button onclick="pv=${i};draw()">👁 معاينة</button><div class="q"><button onclick="chg(${i},-1)">−</button><span>${cart[i]||0}</span><button onclick="chg(${i},1)">+</button></div></div>`}).join('')}</div><div class="p"><h3>سلتك</h3><div class="row"><select onchange="chV=this.value;sm()">${CH.map(c=>`<option ${c===chV?'selected':''}>${c}</option>`).join('')}</select><input placeholder="كوبون: IG10 أو TT15 أو FB5" value="${cpV}" oninput="cpV=this.value;sm()"></div><div id="sm" class="sc"></div><button class="go" style="margin-top:8px;width:100%;padding:10px;border-radius:10px;border:0;font:inherit;font-weight:800;cursor:pointer" onclick="buy()">اتمّ الطلب</button></div>`}
+function draw(){
+document.getElementById('tb').innerHTML=T.map(t=>`<button class="${t[0]===tab?'on':''}" onclick="tab='${t[0]}';draw()">${t[1]}</button>`).join('');
+const v=document.getElementById('v');
+if(tab==='store'){v.innerHTML=storeHtml();sm();md();return}
+if(tab==='store0'){v.innerHTML=`<div class="g2">${P.map((p,i)=>`<div class="p pr"><div class="em">${p[4]}</div><b>${p[0]}</b><small>${f0(p[1])} ج.م · متاح ${stock(i)}</small><div class="q"><button onclick="chg(${i},-1)">−</button><span>${cart[i]||0}</span><button onclick="chg(${i},1)">+</button></div></div>`).join('')}</div><div class="p"><h3>سلتك</h3><div class="row"><select onchange="chV=this.value;sm()">${CH.map(c=>`<option ${c===chV?'selected':''}>${c}</option>`).join('')}</select><input placeholder="كوبون: IG10 أو TT15 أو FB5" value="${cpV}" oninput="cpV=this.value;sm()"></div><div id="sm" class="sc"></div><button class="go" style="margin-top:8px;width:100%;padding:10px;border-radius:10px;border:0;font:inherit;font-weight:800;cursor:pointer" onclick="buy()">اتمّ الطلب</button></div>`;sm();return}
+if(!O.length){v.innerHTML=E;return}
+const rev=sum(O,o=>o.net),cg=sum(O,o=>o.cogs),vt=sum(O,o=>o.vat),tt=sum(O,o=>o.total);
+if(tab==='sys'){v.innerHTML=`<div class="p"><h3>المخزون (يتخصم تلقائياً)</h3>${P.map((p,i)=>`<div class="bar"><span>${p[4]} ${p[0]}</span><span><i style="width:${stock(i)/p[3]*100}%;background:${stock(i)<5?'#dc2626':'var(--c)'}"></i></span><span class="${stock(i)<5?'bad':''}">${stock(i)}</span></div>`).join('')}</div><div class="p"><h3>سجل الطلبات</h3><div class="sc"><table><tr><th>#</th><th>القناة</th><th>الكوبون</th><th>الإجمالي</th></tr>${O.slice().reverse().map(o=>`<tr><td>${o.id}</td><td>${o.ch}</td><td>${o.code||'-'}</td><td>${f2(o.total)}</td></tr>`).join('')}</table></div></div>`;return}
+if(tab==='acc'){const D=tt+cg,C=rev+vt+cg;v.innerHTML=`<div class="kp"><div class="k"><small>الإيراد</small><b>${f0(rev)}</b></div><div class="k"><small>تكلفة البضاعة</small><b>${f0(cg)}</b></div><div class="k"><small>مجمل الربح</small><b>${f0(rev-cg)}</b></div><div class="k"><small>الهامش</small><b>${f0((rev-cg)/rev*100)}%</b></div></div><div class="p"><h3>ميزان المراجعة</h3><div class="sc"><table><tr><th>الحساب</th><th>مدين</th><th>دائن</th></tr><tr><td>النقدية</td><td>${f2(tt)}</td><td></td></tr><tr><td>تكلفة البضاعة المباعة</td><td>${f2(cg)}</td><td></td></tr><tr><td>إيرادات المبيعات</td><td></td><td>${f2(rev)}</td></tr><tr><td>ضريبة قيمة مضافة (مخرجات)</td><td></td><td>${f2(vt)}</td></tr><tr><td>المخزون</td><td></td><td>${f2(cg)}</td></tr><tr><th>الإجمالي</th><th>${f2(D)}</th><th>${f2(C)}</th></tr></table></div><p class="${Math.abs(D-C)<.01?'ok':'bad'}">${Math.abs(D-C)<.01?'✔ المدين = الدائن':'✖ فرق'}</p></div><div class="p"><h3>آخر قيود اليومية</h3><div class="sc"><table><tr><th>طلب</th><th>الحساب</th><th>مدين</th><th>دائن</th></tr>${O.slice(-4).reverse().map(o=>`<tr><td>${o.id}</td><td>النقدية</td><td>${f2(o.total)}</td><td></td></tr><tr><td></td><td>إيرادات المبيعات</td><td></td><td>${f2(o.net)}</td></tr><tr><td></td><td>ضريبة مخرجات</td><td></td><td>${f2(o.vat)}</td></tr><tr><td></td><td>تكلفة البضاعة / المخزون</td><td>${f2(o.cogs)}</td><td>${f2(o.cogs)}</td></tr>`).join('')}</table></div></div>`;return}
+if(tab==='mkt'){const ch=grp(O,o=>o.ch,o=>o.net),cu=grp(O.filter(o=>o.code),o=>o.code,o=>1);v.innerHTML=`<div class="g"><div class="p"><h3>الإيراد حسب القناة</h3>${donut(ch)}</div><div class="p"><h3>استخدام الكوبونات</h3>${cu.length?bars(cu):'مفيش كوبونات اتستخدمت'}<p>أفضل قناة: <b>${ch[0][0]}</b>. الخصومات كلفتك <b>${f0(sum(O,o=>o.disc))}</b> جنيه.</p></div></div>`;return}
+v.innerHTML=`<div class="kp"><div class="k"><small>إجمالي المبيعات</small><b>${f0(tt)}</b></div><div class="k"><small>مجمل الربح</small><b>${f0(rev-cg)}</b></div><div class="k"><small>عدد الطلبات</small><b>${O.length}</b></div><div class="k"><small>متوسط الطلب</small><b>${f0(tt/O.length)}</b></div></div><div class="g"><div class="p"><h3>أكتر منتجات مبيعاً (إيراد)</h3>${bars(grp(O.flatMap(o=>o.it.map(x=>[P[x[0]][0],P[x[0]][1]*x[1]])),x=>x[0],x=>x[1]).slice(0,5))}</div><div class="p"><h3>حصة القنوات</h3>${donut(grp(O,o=>o.ch,o=>o.net))}</div></div>`}
+draw();
+</script>
+</body>
+</html>
